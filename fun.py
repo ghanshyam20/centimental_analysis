@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 load_dotenv() #load environment variables from .env file
 
-api_key=os.getenv("AIzaSyCL79TDlnpSaUvF4b59KKdQuQynmi-ofwc")
+API_KEY=os.getenv("API_KEY")
 
 
 
