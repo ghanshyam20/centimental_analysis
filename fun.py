@@ -11,8 +11,7 @@ load_dotenv() #load environment variables from .env file
 api_key=os.getenv("AIzaSyCL79TDlnpSaUvF4b59KKdQuQynmi-ofwc")
 
 
-# # Your YouTube Data API key
-# API_KEY = "AIzaSyCL79TDlnpSaUvF4b59KKdQuQynmi-ofwc"
+
 
 def fetch_comments(video_id):
     """Fetch comments from a YouTube video."""
